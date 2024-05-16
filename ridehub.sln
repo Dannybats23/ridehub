@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34601.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ridehub", "ridehub\ridehub.njsproj", "{AA1B8334-22FC-498D-9DCA-4EEBF71EBCDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA1B8334-22FC-498D-9DCA-4EEBF71EBCDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1B8334-22FC-498D-9DCA-4EEBF71EBCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1B8334-22FC-498D-9DCA-4EEBF71EBCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1B8334-22FC-498D-9DCA-4EEBF71EBCDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67B11FD6-7A8B-410B-8D6E-AC6A09DB9555}
+	EndGlobalSection
+EndGlobal

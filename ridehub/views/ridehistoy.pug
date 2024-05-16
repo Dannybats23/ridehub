@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  .login-container
+    h1 Ride History
+
+    
+    if ridehistory.length > 0
+        table
+            thead
+                tr
+                    th Ride ID
+                    th Date
+                    th From
+                    th To
+                    th Fare
+            tbody
+                each ride in ridehistory
+                    tr
+                        td= ride.rideId
+                        td= ride.date
+                        td= ride.from
+                        td= ride.to
+                        td= ride.fare
+    else
+        p No ride history available

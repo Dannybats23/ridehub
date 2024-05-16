@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .login-container
+  h1 Ride Confirmation
+
+  div
+    p Your ride has been requested successfully!
+    p Driver: #{driver}
+    p Estimated Time: #{estimatedTime}
+
+  a(href='/main') Back to Dashboard

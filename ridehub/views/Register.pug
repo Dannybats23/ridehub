@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  .login-container
+  h1 Register
+  if error
+    p.error= error
+  form(action='/users/register' method='post')
+    label(for='name') Name:
+    input(type='text' name='name' required)
+    label(for='email') Email:
+    input(type='email' name='email' required)
+    label(for='password') Password:
+    input(type='password' name='password' required)
+    button(type='submit') Register

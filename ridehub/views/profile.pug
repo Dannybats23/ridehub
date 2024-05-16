@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  .login-container
+    h1 Profile Page
+
+
+    if user
+        form(action="/profile", method="post")
+            label(for="name") Name:
+            input(type="text", id="name", name="name", value=user.name)
+            br
+            label(for="phone") Phone Number:
+            input(type="text", id="phone", name="phone", value=user.phone)
+            br
+            label(for="address") Address:
+            input(type="text", id="address", name="address", value=user.address)
+            br
+            button(type="submit") Update
+    else
+        p No profile information available
